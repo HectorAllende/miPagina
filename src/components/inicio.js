@@ -51,7 +51,7 @@ const Inicio = () => {
                     <div className="flex p-2">
                         <textarea
                             id="contact"
-                            name="contact"
+                            name="message"
                             className="flex-1 px-3 py-1 text-sm text-gray-700 border rounded shadow focus:outline-none"
                         ></textarea>
                         <button
