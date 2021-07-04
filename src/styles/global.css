@@ -1,0 +1,36 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pagina-actual{
+    color: black;
+    font: bold;
+}
+
+.imagen{
+    max-width: 200px;
+    width: 95%;
+    margin: 2rem auto 0 auto;
+    border-radius: 50%;
+
+
+}
+
+.inter{
+    line-height: 1.5; 
+    text-align: justify;
+}
+
+.btn{
+    @apply px-4 py-2 font-bold text-white bg-gray-400 border-b-4 border-gray-700 rounded;
+}
+
+.repos-list{
+    column-rule: 1px solid;
+}
+
+.repos-list li{
+    break-inside: avoid-column;
+}
+
