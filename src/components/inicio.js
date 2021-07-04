@@ -44,6 +44,7 @@ const Inicio = () => {
                     netlify
                     name="contact"
                     method="POST"
+                    data-netlify="true"
                     className="p-2 mt-3 bg-gray-200 rounded-md shadow">
                     <label htmlFor="contact" className="p-3 text-sm font-bold text-gray-700">Déjame un mensaje o consulta:</label>
 
