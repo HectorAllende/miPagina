@@ -80,28 +80,28 @@ const Inicio = () => {
                     method="post"
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
-                    className="p-2 mt-3 bg-gray-200 rounded-md shadow"
+               
 
                 >
 
-                    {/* <label htmlFor="contacto" className="p-3 text-sm font-bold text-gray-700">Déjame un mensaje o consulta:</label> */}
 
-                    <div className="flex p-2">
+
+                  
 
                         <input type="hidden" name="bot-field" /> <input type="hidden" name="contact" value="contact" />
 
                         <textarea
                             name="contact"
                             placeholder="Déjame un mensaje o consulta"
-                            className="flex-1 px-3 py-1 text-sm text-gray-700 border rounded shadow focus:outline-none"
+                      
 
                         ></textarea>
                         <button
                             type="submit"
-                            className="ml-4 transition duration-150 transform btn hover:scale-105"
+                           
                         >Enviar</button>
 
-                    </div>
+   
 
                 </form>
 
