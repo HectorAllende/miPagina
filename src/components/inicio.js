@@ -40,7 +40,7 @@ const Inicio = () => {
                 <p className="py-2 text-base md:text-lg">Actualmente estoy viviendo en Rosario, Argentina</p>
 
 
-                <form
+                {/* <form
                     name="contact"
                     method="post"
 
@@ -69,6 +69,33 @@ const Inicio = () => {
                     </div>
 
 
+                </form> */}
+
+
+
+                
+
+                <form
+                         name="contact"
+                         method="post"
+                         
+                         data-netlify="true"
+                         data-netlify-honeypot="bot-field"
+                        
+
+                  
+                    >
+                       <input type="hidden" name="bot-field" /> <input type="hidden" name="contact" value="contact" />
+                       
+                        <textarea
+                            name="contact"
+                            placeholder="Déjame un mensaje o consulta"
+                        
+                        ></textarea>
+                        <button
+                            type="submit"
+                        >Enviar</button>
+                        
                 </form>
 
             </div>
