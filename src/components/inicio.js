@@ -85,7 +85,7 @@ const Inicio = () => {
                 >
 
 
-                    <div className="flex p-2">  
+               
 
 
                         <input type="hidden" name="bot-field" /> <input type="hidden" name="contact" value="contact" />
@@ -98,10 +98,9 @@ const Inicio = () => {
                         ></textarea>
                         <button
                             type="submit"
-                            className="ml-4 transition duration-150 transform hover:scale-105"
+                            className="ml-4 transition duration-150 transform btn hover:scale-105"
                         >Enviar</button>
 
-                    </div>
 
                 </form>
 
