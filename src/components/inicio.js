@@ -50,7 +50,7 @@ const Inicio = () => {
                     className="p-2 mt-3 bg-gray-200 rounded-md shadow"
                     >
 
-                    {/* <label htmlFor="contacto" className="p-3 text-sm font-bold text-gray-700">Déjame un mensaje o consulta:</label> */}
+                    <label htmlFor="contacto" className="p-3 text-sm font-bold text-gray-700">Déjame un mensaje o consulta:</label>
 
                     <div className="flex p-2">
 
