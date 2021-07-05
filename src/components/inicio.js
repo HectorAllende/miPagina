@@ -85,23 +85,23 @@ const Inicio = () => {
                 >
 
 
+                    <div className="flex p-2">  
 
-                  
 
                         <input type="hidden" name="bot-field" /> <input type="hidden" name="contact" value="contact" />
 
                         <textarea
                             name="contact"
                             placeholder="Déjame un mensaje o consulta"
-                      
+                            className="flex-1 px-3 py-1 text-sm text-gray-700 border rounded shadow focus:outline-none"
 
                         ></textarea>
                         <button
                             type="submit"
-                           
+                            className="ml-4 transition duration-150 transform hover:scale-105"
                         >Enviar</button>
 
-   
+                    </div>
 
                 </form>
 
