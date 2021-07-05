@@ -40,18 +40,18 @@ const Inicio = () => {
                 <p className="py-2 text-base md:text-lg">Actualmente estoy viviendo en Rosario, Argentina</p>
 
 
-                <form
-                    netlify
+                <form                    
                     name="contact"
                     method="POST"
                     data-netlify="true"
+                    netlify
                     className="p-2 mt-3 bg-gray-200 rounded-md shadow">
                     <label htmlFor="contact" className="p-3 text-sm font-bold text-gray-700">Déjame un mensaje o consulta:</label>
 
                     <div className="flex p-2">
                         <textarea
                             id="contact"
-                            name="message"
+                            name="contact"
                             className="flex-1 px-3 py-1 text-sm text-gray-700 border rounded shadow focus:outline-none"
                         ></textarea>
                         <button
