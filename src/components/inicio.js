@@ -78,7 +78,6 @@ const Inicio = () => {
                 <form
                     name="contact"
                     method="post"
-
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                     className="p-2 mt-3 bg-gray-200 rounded-md shadow"
