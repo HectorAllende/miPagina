@@ -42,17 +42,16 @@ const Inicio = () => {
 
                 <form  
                   name="contact"
-                  method="post"
-                 
+                  method="post"                 
                   data-netlify="true"
-                  data-netlify-honeypot="botfield"
-                                
-                                    
-                    className="p-2 mt-3 bg-gray-200 rounded-md shadow">
+                  data-netlify-honeypot="botfield"                               
+                  className="p-2 mt-3 bg-gray-200 rounded-md shadow">
+                  
                     <label htmlFor="contact" className="p-3 text-sm font-bold text-gray-700">Déjame un mensaje o consulta:</label>
 
                     <div className="flex p-2">
-                    <input type="hidden" name="contact" aria-hidden="true" value="contact" />
+
+                        <input type="hidden" name="contact" aria-hidden="true" value="contact" />
                         <textarea
                             id="contact"
                             name="contact"
