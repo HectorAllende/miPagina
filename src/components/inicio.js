@@ -29,17 +29,14 @@ const Inicio = () => {
 
                 <h1 className="mb-10 text-2xl font-bold lg:text-3xl">Hola, soy Héctor</h1>
 
-                <p className="text-base inter md:text-lg">Desarrollador web Frontend.
-                    Terminé mi carrera de Desarrollo Web 2020,
-                    luego continué realizando cursos y varios proyectos,
-                    enfocados en React, utilizando Hooks, Context, Redux, Next, Gatsby, NodeJs, Firebase
-                    entre otros. Los últimos 10 años me estuve desempeñando como Analista Financiero.</p>
+                <p className="text-base inter md:text-lg">Desarrollador web Frontend - React.Js
+                Estoy en constante aprendizaje, realizando cursos y varios proyectos,
+                enfocados en React, utilizando Hooks, contextAPI, Redux/thunk y saga, Next, Gatsby, NodeJs, Firebase
+                entre otros. Los ultimos 10 años me estuve desempeñando como Analista Financiero.</p>
 
                 <p className="py-2 text-base inter md:text-lg">Me gusta aprender cosas nuevas y me apasiona la tecnología. Mis principales intereses son realizar actividades y deportes al aire libre, inversiones y el desarrollo personal.</p>
 
-                <p className="py-2 text-base md:text-lg">Actualmente estoy viviendo en Rosario, Argentina</p>
-
-
+          
                 {/* <form
                     name="contact"
                     method="post"
