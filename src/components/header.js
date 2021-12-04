@@ -9,8 +9,8 @@ const Header = () => {
 
 
     return (
-        <header className="relative w-full py-8 bg-gray-200 bg-opacity-40">
-            <div className="container flex items-center justify-between px-10 mx-auto ">
+        <header className="relative w-full py-8 bg-gray-200 bg-opacity-40 sticky-top">
+            <div className="container flex items-center justify-between px-10 mx-auto">
                 <div className="pb-2">
                     <Link to="/" className="items-center text-3xl font-bold" >Héctor Allende</Link>
                 </div>

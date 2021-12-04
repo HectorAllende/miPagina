@@ -29,7 +29,7 @@ const Inicio = () => {
 
                 <h1 className="mb-10 text-2xl font-bold lg:text-3xl">Hola, soy Héctor</h1>
 
-                <p className="text-base inter md:text-lg">Desarrollador web Frontend - React.Js.
+                <p className="text-base inter md:text-lg">Desarrollador web Frontend - ReactJs.
                 Estoy en constante aprendizaje, realizando cursos y varios proyectos,
                 enfocados en React, utilizando Hooks, contextAPI, Redux/thunk y saga, Next, Gatsby, NodeJs, Firebase
                 entre otros. Los ultimos 10 años me estuve desempeñando como Analista Financiero.</p>
