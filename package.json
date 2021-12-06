@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "@headlessui/react": "^1.3.0",
+    "@react-pdf/renderer": "^2.0.21",
     "axios": "^0.21.1",
     "gatsby": "^3.8.1",
     "gatsby-image": "^3.8.0",
