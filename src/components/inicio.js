@@ -28,7 +28,6 @@ const Inicio = () => {
                 tag="section" fluid={image.sharp.fluid} fadeIn="soft"
                 className="imagen"
             />
-
             <div className="container max-w-2xl m-auto pb-5 px-3">
 
                 <h1 className="mb-3 text-2xl font-bold lg:text-3xl">Hola, soy Héctor</h1>
