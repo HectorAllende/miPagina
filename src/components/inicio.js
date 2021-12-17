@@ -47,16 +47,13 @@ const Inicio = () => {
                         className=" transition duration-150 transform btn hover:scale-105 "
                     >Descargar CV</button>
                 </a>
-
                 <form
                     name="contact"
                     method="post"
                     data-netlify="true"
                     data-netlify-honeypot="bot-field"
                     className="flex p-4 mt-3 bg-gray-200 rounded-md shadow"
-
                 >
-
 
                     <input type="hidden" name="bot-field" /> <input type="hidden" name="contact" value="contact" />
 
