@@ -31,7 +31,7 @@ const Inicio = () => {
                 <p className="text-base inter md:text-md"> <strong className="font-bold">Desarrollador web Frontend - ReactJs</strong>.
                     Estoy en constante aprendizaje, realizando cursos y varios proyectos,
                     enfocados en React, utilizando Hooks, contextAPI, Redux/thunk - saga, NextJS, Gatsby, Sass, Firebase
-                    entre otros. Los ultimos 10 años me estuve desempeñando como Analista Financiero.</p>
+                    entre otros. Los últimos 10 años me estuve desempeñando como Analista Financiero.</p>
 
                 <p className="py-2 text-base inter md:text-md">Me gusta aprender cosas nuevas y me apasiona la tecnología. Mis principales intereses son realizar actividades y deportes al aire libre, inversiones y desarrollo personal.</p>
 
