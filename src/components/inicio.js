@@ -48,9 +48,7 @@ const Inicio = () => {
                     data-netlify-honeypot="bot-field"
                     className="flex p-4 mt-3 bg-gray-200 rounded-md shadow"
                 >
-
                     <input type="hidden" name="bot-field" /> <input type="hidden" name="contact" value="contact" />
-
                     <textarea
                         name="contact"
                         placeholder="Déjame un mensaje o consulta"
