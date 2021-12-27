@@ -21,9 +21,6 @@ const Inicio = () => {
 
     return (
         <>
-
-
-
             <Img
                 tag="section" fluid={image.sharp.fluid} fadeIn="soft"
                 className="imagen"
@@ -31,7 +28,6 @@ const Inicio = () => {
             <div className="container max-w-2xl m-auto pb-5 px-3">
 
                 <h1 className="mb-3 text-2xl font-bold lg:text-3xl">Hola, soy Héctor</h1>
-
                 <p className="text-base inter md:text-md"> <strong className="font-bold">Desarrollador web Frontend - ReactJs</strong>.
                     Estoy en constante aprendizaje, realizando cursos y varios proyectos,
                     enfocados en React, utilizando Hooks, contextAPI, Redux/thunk - saga, NextJS, Gatsby, Sass, Firebase
@@ -40,7 +36,6 @@ const Inicio = () => {
                 <p className="py-2 text-base inter md:text-md">Me gusta aprender cosas nuevas y me apasiona la tecnología. Mis principales intereses son realizar actividades y deportes al aire libre, inversiones y desarrollo personal.</p>
 
                 <a href={pdf} download="HéctorAllende CV.pdf" className="flex justify-start my-2" target="_blank" rel="noopener noreferrer">
-                    
                     <button
                         type="submit"
                         className=" transition duration-150 transform btn hover:scale-105 "
